@@ -1,0 +1,31 @@
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# PHP
+*.log
+vendor/
+composer.lock
+
+# Uploaded files
+admin/assets/img/products/*
+admin/assets/img/categories/*
+!admin/assets/img/.gitkeep
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Environment files
+.env
+.env.local
+
+# Database backups
+*.sql.gz
+backup/
