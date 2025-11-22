@@ -1,3 +1,4 @@
+#!/bin/bash
 # Workshop Admin Template - Kiểm tra Cài đặt
 # Installation Check Script
 

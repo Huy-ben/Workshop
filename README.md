@@ -69,11 +69,17 @@ define('DB_PASS', '');              // Password database
 define('DB_NAME', 'workshop_db');   // Tên database
 ```
 
-Cập nhật đường dẫn trang web (nếu cần):
+Cập nhật đường dẫn trang web (điều chỉnh theo môi trường của bạn):
 
 ```php
+// Development (localhost)
 define('SITE_URL', 'http://localhost/Workshop/admin/');
+
+// Production (ví dụ)
+// define('SITE_URL', 'https://yourdomain.com/admin/');
 ```
+
+**Lưu ý**: Đường dẫn phải kết thúc bằng dấu `/`
 
 ### Bước 5: Truy cập ứng dụng
 

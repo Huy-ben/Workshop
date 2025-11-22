@@ -128,8 +128,7 @@ if (!empty($keyword)) {
     $results = fetch_all("SELECT p.*, c.name as category_name 
                          FROM products p 
                          LEFT JOIN categories c ON p.category_id = c.id 
-                         WHERE p.name LIKE '%$keyword%' 
-                         OR p.description LIKE '%$keyword%' 
+                         WHERE (p.name LIKE '%$keyword%' OR p.description LIKE '%$keyword%') 
                          AND p.status = 'active'
                          ORDER BY p.name");
 }
